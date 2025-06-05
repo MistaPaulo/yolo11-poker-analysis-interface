@@ -1,0 +1,5 @@
+torch==2.7.0+cu128
+ultralytics==8.3.144
+opencv-python==4.11.0.86
+numpy==2.2.6
+treys==0.1.8
