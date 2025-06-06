@@ -30,7 +30,7 @@ import torch                            # PyTorch for checking CUDA availability
 
 # --- Configurations ---
 DEFAULT_WEIGHTS     = "weights/poker_best.pt"  # Filepath for the pretrained YOLO model weights used to detect playing cards
-CONF_THRESHOLD      = 0.6                      # Minimum confidence threshold for YOLO detections
+CONF_THRESHOLD      = 0.5                      # Minimum confidence threshold for YOLO detections
 ANALYSIS_FPS        = 5                        # Number of analysis frames per second (only applies to video input)
 IMGSZ               = 1920                     # YOLO input size (pixels) for video frames
 IMGSZ_IMAGE         = 1920                     # YOLO input size (pixels) for static images
